@@ -1,0 +1,33 @@
+{
+    "imovel": [
+        {
+            "id": 1,
+            "nome": "Primeiro imovél de exemplo",
+            "tipo": "Apartamento",
+            "valor": 300000.00,
+            "condominio": 450.00,
+            "quartos": 3,
+            "banheiros": 3,
+            "mobiliado": false,
+            "area": 80,
+            "endereco": [
+                {
+                    "id": 1,
+                    "rua": "Rua exemplo imovél 1",
+                    "numero": 100,
+                    "bairro": "Exemplo de bairro",
+                    "cidade": "Belo Horizonte",
+                    "uf": "MG"
+                }
+            ],
+            "proprietarioId": 1
+        }
+    ],
+    "proprietario": [
+        {
+            "id": 1,
+            "nome": "Fulano",
+            "imovelId": 1
+        }
+    ]
+}
