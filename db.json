@@ -10,6 +10,8 @@
             "banheiros": 3,
             "mobiliado": false,
             "area": 80,
+            "venda": true,
+            "aluguel": false,
             "endereco": [
                 {
                     "id": 1,
@@ -17,7 +19,8 @@
                     "numero": 100,
                     "bairro": "Exemplo de bairro",
                     "cidade": "Belo Horizonte",
-                    "uf": "MG"
+                    "uf": "MG",
+                    "cep": "3333-333"
                 }
             ],
             "proprietarioId": 1
