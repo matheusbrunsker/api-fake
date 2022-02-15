@@ -2,20 +2,21 @@
     "imovel": [
         {
             "id": 1,
-            "nome": "Primeiro imovél de exemplo",
-            "tipo": "Apartamento",
+            "nome": "Primeiro imóvel de exemplo",
+            "tipo": ["Apartamento", "Casa"],
             "valor": 300000.00,
-            "condominio": 450.00,
+            "condominio": 450.90,
             "quartos": 3,
             "banheiros": 3,
             "mobiliado": false,
             "area": 80,
             "venda": true,
             "aluguel": false,
+            "dataAnuncio": "2022-02-14T18:30:00Z",
             "endereco": [
                 {
                     "id": 1,
-                    "rua": "Rua exemplo imovél 1",
+                    "rua": "Rua exemplo imóvel 1",
                     "numero": 100,
                     "bairro": "Exemplo de bairro",
                     "cidade": "Belo Horizonte",
